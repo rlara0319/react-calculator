@@ -55,3 +55,13 @@ body {
   color: white;
   font-size: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background: black;
+  }
+
+  .calculator-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
